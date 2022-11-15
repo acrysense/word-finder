@@ -20,37 +20,50 @@
 	<div class="wrapper">
 		<!-- header -->
 		<header class="header" id="header">
-			<div class="container">
-				<div class="header__wrapper">
-					<a href="index.html" class="header__logotype">
-						<img src="img/logo-white.svg" width="116px" height="28px" alt="Word Finder">
-					</a>
-					<nav class="nav header__nav">
-						<ul class="nav__list">
-							<li class="nav__item">
-								<a href="#" class="nav__link">Word Finder</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Wordle Solver</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Word Chums</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Jumble Solver</a>
-							</li>
-							<li class="nav__item">
-								<a href="#" class="nav__link">Unscrambler</a>
-							</li>
-						</ul>
-					</nav>
-					<button class="hamburger" id="hamburger-toggle">
-						<span class="hamburger__title">More</span>
-						<div class="hamburger__group">
-							<span class="hamburger__inner"></span>
-							<span class="hamburger__inner"></span>
-							<span class="hamburger__inner"></span>
-						</div>
+			<div class="header__top">
+				<div class="container">
+					<div class="header__wrapper">
+						<a href="index.html" class="header__logotype">
+							<img src="img/logo-white.svg" width="116px" height="28px" alt="Word Finder">
+						</a>
+						<nav class="nav header__nav">
+							<ul class="nav__list">
+								<li class="nav__item">
+									<a href="#" class="nav__link">Word Finder</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">Wordle Solver</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">Word Chums</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">Jumble Solver</a>
+								</li>
+								<li class="nav__item">
+									<a href="#" class="nav__link">Unscrambler</a>
+								</li>
+							</ul>
+						</nav>
+						<button class="hamburger" id="hamburger-toggle">
+							<span class="hamburger__title">More</span>
+							<div class="hamburger__group">
+								<span class="hamburger__inner"></span>
+								<span class="hamburger__inner"></span>
+								<span class="hamburger__inner"></span>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="header__search">
+				<div class="global-search">
+					<a href="#main" class="global-search__link" aria-label="Вверх"></a>
+					<input type="text" class="global-search__input" placeholder="ENTER LETTERS..." disabled>
+					<button class="global-search__btn" aria-label="Поиск">
+						<svg class="global-search__btn-icon">
+							<use xlink:href="img/sprite.svg#icon-search"></use>
+						</svg>
 					</button>
 				</div>
 			</div>
